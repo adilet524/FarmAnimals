@@ -64,12 +64,12 @@ public class Farm {
 
     @Override
     public String toString() {
-        return " Farm : \n" +
+        return "\n" +
                 "OwnerName = " + ownerName + "\n" +
                 "Address = " + address + " \n\n " +
                 "Cows = " + Arrays.toString(cows) + " \n\n " +
                 "Sheep =  " + Arrays.toString(sheep) + " \n\n " +
-                "Horses = " + Arrays.toString(horses) + " \n " ;
+                "Horses = " + Arrays.toString(horses) + " \n\n\n " ;
     }
 
 

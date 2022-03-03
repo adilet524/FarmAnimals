@@ -25,6 +25,7 @@ public class Main {
         Sheep[] sheeps = {sheep, sheep2, sheep3};
         Horse[] horses = {horse, horse2};
 
+        System.out.println("Farm 1:");
         Farm farm = new Farm("Adilet", "Kadyrova 89a", cows, sheeps, horses);
         System.out.println(farm);
 
@@ -33,6 +34,7 @@ public class Main {
         Sheep[] sheeps2 = {sheep4};
         Horse[] horses2 = {horse3};
 
+        System.out.println("Farm 2:");
         Farm farm2 = new Farm("Bakyt", "Kyshtobaeva 89a", cows2, sheeps2, horses2);
         System.out.println(farm2);
 
